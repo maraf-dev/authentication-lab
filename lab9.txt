@@ -5,7 +5,9 @@ SessionAuthentication class 'rest_framework.authentication.SessionAuthentication
 Question 2: What authentication scheme is used by httpie when querying with the -a or --auth option flag?
 Basic authentication. It provides the username and password as part of the HTTP request headers
 
-Question 3: Session Authentication relies on server-side sessions and cookies, while Token Authentication
+Question 3: What is the difference between Session Authentication and Token Authentication? How is Token 
+Authentication an improvement over Basic Authentication?
+Session Authentication relies on server-side sessions and cookies, while Token Authentication
 involves the use of a token (typically a long string) transmitted with each request. Token Authentication
 is considered an improvement over Basic Authentication as it doesn't require sending the actual username
 and password with every request, providing better security and avoiding the need to store sensitive 
